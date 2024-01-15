@@ -1,2 +1,2 @@
 # training
-## some tasks for practice
+some tasks for practice
