@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>forms</title>
+</head>
+<body>
+  <h1>forms</h1>
+  <form>
+    <label for="text">name</label>
+    <input type="text" id="text" value="leo" readonly>
+    <label for="email">email</label>
+    <input type="text" id="email" placeholder="placeholder">
+  </form>
+  <hr>
+  <form>
+    <div>
+      <label for="text">name</label>
+      <input type="text" id="text">
+    </div>
+    <div>
+      <label for="email">email</label>
+      <input type="email" id="email">
+    </div>
+    <div>
+      <label for="password">pass</label>
+      <input type="password" id="password">
+    </div>
+    <div>
+      <label for="number">count</label>
+      <input type="number" id="number" min="0">
+    </div>
+    <div>
+      <label for="range">range</label>
+      <input type="range" id="range" min="0" max="10" step="2">
+    </div>
+    <div>
+      <label for="date">date</label>
+      <input type="date" id="date">
+    </div>
+    <div>
+      <label for="color">color</label>
+      <input type="color" id="color">
+    </div>
+    <div>
+      <label for="massage">textarea</label>
+      <br>
+      <textarea name="" id="message" cols="25" rows="5"></textarea>
+    </div>
+    <div>
+      <label for="day">select</label>
+      <select name="day" id="day">
+        <option value="dilluns">dilluns</option>
+        <option value="dimarts" selected>dimarts</option>
+        <option value="dimecras">dimecras</option>
+      </select>
+    </div>
+    <div>
+      <label>radio</label>
+      <input type="radio" name="work"> 1
+      <input type="radio" name="work"> 2
+      <input type="radio" name="work"> 3
+      <input type="radio" name="work"> 4
+    </div>
+    <div>
+      <label>checkbox</label>
+      <input type="checkbox" name="food"> 1
+      <input type="checkbox" name="food"> 2
+      <input type="checkbox" name="food"> 3
+      <input type="checkbox" name="food"> 4
+    </div>
+    <input type="submit" value="submin">
+    <button type="submit">button</button>
+  </form>
+</body>
+</html> 
